@@ -179,16 +179,17 @@ body, html {
     }
 }
 #home {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    padding: 60px 9% 0;
-    color: #fff;
-    gap: 5%;
-    visibility: hidden;
-    opacity: 0;
-    animation: show-nav 1.5s linear forwards;
-    animation-delay: 1.6s;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* optional */
+  padding: 60px 9% 40px; /* add bottom padding */
+  color: #fff;
+  gap: 5%;
+  visibility: hidden;
+  opacity: 0;
+  animation: show-nav 1.5s linear forwards;
+  animation-delay: 1.6s;
 }
 
 .home-info {
